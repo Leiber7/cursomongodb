@@ -16,9 +16,9 @@ var peceras = [2,5,7,9,12,56,79,45,86,98,100];
     
 }
 
-// const peceras = [10, 3, 2, 1, 6, 1, 9, 2]
+const peceras = [10, 3, 2, 1, 6, 1, 9, 2]
 
-// countAllpeces(peceras)
+countAllpeces(peceras)
 
 // ejecución( E )
 var resultado = countAllpeces(Peceras)
