@@ -21,6 +21,6 @@ var peceras = [2,5,7,9,12,56,79,45,86,98,100];
 // countAllpeces(peceras)
 
 // ejecución( E )
-var resultado = countAllPeces(Peceras)
+var resultado = countAllpeces(Peceras)
 // salida ( O )
 document.write(resultado);
