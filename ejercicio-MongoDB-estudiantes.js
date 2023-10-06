@@ -29,7 +29,7 @@ var lista = [
       detalles: {
         descripcion: 'matricula normal',
         contacto: {
-          value: 'jyarce@mail.com',
+          email: 'jyarce@mail.com',
 		  telefono: 1122334455
         },
 		valorMatricula: 400000
@@ -41,7 +41,7 @@ var lista = [
       detalles: {
         descripcion: 'matricula condicional',
         contacto: {
-          value: 'abenitez@mail.com',
+          email: 'abenitez@mail.com',
 		  telefono: 234534566
         },
 	    valorMatricula: 600000
@@ -73,7 +73,7 @@ var lista = [
   
   
   //correo estudiante matricula condicional
-  var matriculacondicional = lista.find((estudiante) => estudiante.detalles.descripcion == 'matricula condicional').detalles.contacto.value;
+  var matriculacondicional = lista.find((estudiante) => estudiante.detalles.descripcion == 'matricula condicional').detalles.contacto.email;
   // fin matricula condicional
   
   
